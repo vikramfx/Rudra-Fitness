@@ -1,0 +1,77 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar-brand .logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+/* Hero Section */
+.hero {
+    padding: 100px 0;
+    background: url('https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg') no-repeat center center;
+    background-size: cover;
+    animation: fadeIn 2s ease-out;
+}
+
+/* Hero Section Button */
+.hero .btn-primary {
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.hero .btn-primary:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
+
+/* About Section */
+#about {
+    text-align: center;
+    animation: fadeIn 2s ease-out;
+}
+
+/* Services Section */
+#services .card {
+    margin-bottom: 30px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact Section */
+#contact .form-control {
+    margin-bottom: 20px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+#contact .form-control:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    animation: fadeIn 2s ease-out;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+  
